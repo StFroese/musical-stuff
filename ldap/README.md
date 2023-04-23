@@ -16,12 +16,12 @@ This was pain...
 ## Edit ``/etc/nsswitch.conf``
 
 Add ``ldap`` to all entries
-``
+```
 passwd:         files systemd ldap
 group:          files systemd ldap
 shadow:         compat ldap
 gshadow		files ldap
-``
+```
 
 ## Edit ``/etc/pam.d/common-session``
 
